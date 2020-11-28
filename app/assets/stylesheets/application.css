@@ -32,10 +32,8 @@ header{
   align-items: center;
 }
 
-
-
 .image{
-  height: 70px;
+  height:70px;
 }
 
 
@@ -48,4 +46,31 @@ header{
 .no-decoration{
   text-decoration: none;
   color:#FAFAFA;
+}
+
+.main-visual {
+  background-image: url(img/mv.png);
+  height:650px;
+  width:100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  padding-top:200px;
+  width:1024px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  color:#FAFAFA;
+  font-size:64px;
+}
+
+.text {
+  text-align: center;
+  padding-top: 10px;
+  color:#FAFAFA;
+  font-size:20px;
 }
