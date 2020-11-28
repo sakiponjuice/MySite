@@ -11,7 +11,27 @@
 </head>
 
 <body>
-  
+  <header>
+    <div class="header-container">
+      <%= link_to image_tag("img/logo.png", class: "image"), root_path %>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <%= link_to "Portfolio", root_path,class: "no-decoration"  %>
+          </li>
+          <li class="nav-list-item">
+            <%= link_to "Feature", root_path,class: "no-decoration"  %>
+          </li>
+          <li class="nav-list-item">
+            <%= link_to "Profile", root_path,class: "no-decoration"  %>
+          </li>
+          <li class="nav-list-item">
+            <%= link_to "Contact", root_path,class: "no-decoration"  %>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 </body>
 
 </html>
