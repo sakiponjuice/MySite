@@ -198,7 +198,7 @@ header{
   flex-wrap:wrap;
 }
 
-.half-container {
+.profile-half-container {
   width:512px;
   text-align:center;
 }
@@ -209,22 +209,53 @@ header{
   border-radius: 50%;
 }
 
-.half-container:last-child{
+.profile-half-container:last-child{
   text-align:left;
 }
 
-.profile-title {
+.detail-title {
   margin-bottom:5px;
   font-size:20px;
 }
-.profile-title2 {
+.detail-title2 {
   margin-top:20px;
   margin-bottom:5px;
   font-size:20px;
 }
 
-.profile-content {
+.detail-content {
   font-size:16px;
   color:#000000;
+}
+
+.big-container4{
+  width:800px;
+  margin:0 auto;
+  padding: 90px 0;
+}
+
+.contact-half-container {
+   width:400px;
+   display:flex;
+   justify-content:center;
+}
+
+.container9 {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.sns {
+  font-size:20px;
+  margin-bottom:5px;
+}
+
+.sns-icon {
+  font-size:50px;
+  margin-right:20px;
+}
+
+.sns-icon:last-child {
+  margin-right:0px;
 }
 
