@@ -62,7 +62,7 @@ header{
   margin: 0 auto;
 }
 
-.title {
+.main-title {
   text-align: center;
   color:#FAFAFA;
   font-size:64px;
@@ -75,23 +75,23 @@ header{
   font-size:20px;
 }
 
-.main {
+.gray-container {
   background-color: #ECEFF1;
+}
+
+.big-container {
+  width:920px;
+  margin:0 auto;
   padding: 90px 0;
 }
 
-.container2 {
-  width:920px;
-  margin:0 auto;
-}
-
-.portfolio-title {
+.title {
   text-align: center;
   font-size:32px;
   color:#000000;
 }
 
-.portfolio-title::after {
+.title::after {
     content: "";
     display: block;
     width: 70px;
@@ -106,8 +106,6 @@ header{
 }
 
 .container3 {
-  width:920px;
-  margin:0 auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -148,3 +146,44 @@ header{
   margin-right:0px;
   margin-bottom:0px;
 }
+
+
+.big-container2 {
+  width:980px;
+  margin:0 auto;
+  padding: 90px 0;
+}
+
+
+.container5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.strength-container {
+  width:320px;
+  height:auto;
+  margin-right:10px;
+  text-align: center;
+}
+
+.strength-icon{
+ font-size:60px;
+}
+
+.strength-title{
+ padding:10px 0px;
+ font-size:20px;
+ color:#000000;
+}
+
+.strength-content {
+ text-align:left;
+ font-size:16px;
+ color:#000000;
+}
+
+.strength-container:last-child {
+  margin-right:0px;
+}
+
