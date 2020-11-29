@@ -13,144 +13,31 @@
 <body>
   <header>
     <div class="header-container">
-      <%= link_to image_tag("img/logo.png", class: "image"), root_path %>
+      <%= link_to image_tag("img/logo.png", class: "image"), '#mv' %>
       <nav>
         <ul class="nav-list">
           <li class="nav-list-item">
-            <%= link_to "Portfolio", root_path,class: "no-decoration"  %>
+            <%= link_to "Portfolio", "#portfolio",class: "no-decoration"  %>
           </li>
           <li class="nav-list-item">
-            <%= link_to "Feature", root_path,class: "no-decoration"  %>
+            <%= link_to "Feature","#feature",class: "no-decoration"  %>
           </li>
           <li class="nav-list-item">
-            <%= link_to "Profile", root_path,class: "no-decoration"  %>
+            <%= link_to "Profile", "#profile",class: "no-decoration"  %>
           </li>
           <li class="nav-list-item">
-            <%= link_to "Contact", root_path,class: "no-decoration"  %>
+            <%= link_to "Contact", "#contact",class: "no-decoration"  %>
           </li>
         </ul>
       </nav>
     </div>
   </header>
-  <div class="main-visual">
-    <div class="container1">
-      <h1 class="main-title">Lorem Ipsum</h1>
-      <p class="text">simply dummy text of the printing</p>
-    </div>
-  </div>
-  <div class="main">
-    <div class="gray-container">
-      <div class="big-container">
-        <div class="container2">
-          <h2 class="title">Portfolio</h2>
-          <p class="content">It is a long established fact that a reader will be distracted by the readable</br>
-            content of a page when looking at its layout.</br>
-            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</br>
-          </p>
-        </div>
-        <div class="container3">
-          <div class="box1 box"></div>
-          <div class="box2 box"></div>
-          <div class="box3 box"></div>
-          <div class="box4 box"></div>
-          <div class="box5 box"></div>
-          <div class="box6 box"></div>
-        </div>
-      </div>
-    </div>
-    <div class="big-container2">
-      <div class="container4">
-        <h2 class="title">Feature</h2>
-        <p class="content">It is a long established fact that a reader will be distracted by the readable</br>
-          content of a page when looking at its layout.</br>
-          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-      </div>
-      <div class="container5">
-        <div class="strength-container">
-          <i class="fa fa-code strength-icon"></i>
-          <h3 class="strength-title">Strength1</h3>
-          <p class="strength-content">Contrary to popular belief, Lorem Ipsum
-            is not simply random text. It has roots
-            in a piece of classical Latin literature
-            from 45 BC, making it over 2000 years
-            old. Richard McClintock, a Latin
-            professor at Hampden-Sydney College
-            in Virginia, looked up one of the more
-            obscure Latin words, consectetur</p>
-        </div>
-        <div class="strength-container">
-          <i class="fa fa-desktop strength-icon"></i>
-          <h3 class="strength-title">Strength2</h3>
-          <p class="strength-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
-            a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
-            professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
-          </p>
-        </div>
-        <div class="strength-container">
-          <i class="fa fa-cogs strength-icon"></i>
-          <h3 class="strength-title">Strength3</h3>
-          <p class="strength-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
-            a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
-            professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="gray-container">
-      <div class="big-container3">
-        <div class="container6">
-          <h2 class="title">Profile</h2>
-          <p class="content">It is a long established fact that a reader will be distracted by the readable</br>
-            content of a page when looking at its layout.</br>
-            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-        </div>
-        <div class="container7">
-          <div class="profile-half-container">
-            <%= image_tag("img/my-icon.jpg", class: "profile-image") %>
-          </div>
-          <div class="profile-half-container">
-            <h3 class="detail-title">MyName</h3>
-            <p class="detail-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-              in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-              Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
-              consectetur
-            </p>
-            <h3 class="detail-title2">MySkills</h3>
-            <p class="detail-content">HTML/CSS,JavaScript,JQuery,PhotoShop</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="big-container4">
-      <div class="container8">
-        <h2 class="title">Contact</h2>
-        <p class="content">It is a long established fact that a reader will be distracted by the readable</br>
-          content of a page when looking at its layout.</br>
-          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-      </div>
-      <div class="container9">
-        <div class="contact-half-container">
-          <div class="contact-info">
-            <div class="mail">
-              <h3 class="detail-title">Mail</h3>
-              <%= link_to "xxx@xxx.com", root_path  %>
-            </div>
-            <div class="tel">
-              <h3 class="detail-title2">Tel</h3>
-              <%= link_to "000-0000-0000", root_path  %>
-            </div>
-          </div>
-        </div>
-        <div class="contact-half-container">
-          <div class="sns-container">
-            <h3 class="sns">SNS</h3>
-            <i class="fa fa-facebook sns-icon"></i>
-            <i class="fa fa-twitter sns-icon"></i>
-            <i class="fa fa-instagram sns-icon"></i>
-          </div>
-        </div>
-      </div>
-    </div>
+  <%= yield %>
+  <footer>
+   <div class="footer-container">
+     <div class="company">@ 2017 Webcamp</div>
+   </div>
+  </footer>
 </body>
 
 </html>
