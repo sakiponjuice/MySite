@@ -5,6 +5,7 @@
   <title>MySite</title>
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <script src="https://kit.fontawesome.com/788e1bc3ee.js" crossorigin="anonymous"></script>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -14,6 +15,11 @@
   <header>
     <div class="header-container">
       <%= link_to image_tag("img/logo.png", class: "image"), '#mv' %>
+      <div class="menu-box">
+				<span class="list-bar"></span>
+				<span class="list-bar"></span>
+				<span class="list-bar"></span>
+			</div>
       <nav>
         <ul class="nav-list">
           <li class="nav-list-item">
